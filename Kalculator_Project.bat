@@ -25,9 +25,8 @@ echo ==========================================
 echo =               Penjumlahan              =
 echo ==========================================
 echo Masukan angka yang ingin kakak jumlahkan :
-set /p num1=
-set /p num2=
-echo %num1%+%num2%?
+set /p num1=Masukan angka pertama :
+set /p num2=Masukkan angka kedua :
 pause
 echo ==========================================
 set /a jawaban=%num1%+%num2%
@@ -43,9 +42,8 @@ echo ==========================================
 echo =               Pengurangan              =
 echo ==========================================
 echo Masukan angka yang ingin kakak kurangkan :
-set /p num1=
-set /p num2=
-echo %num1%-%num2%?
+set /p num1=Masukan angka pertama :
+set /p num2=Masukkan angka kedua :
 pause
 echo ==========================================
 set /a jawaban=%num1%-%num2%
@@ -61,9 +59,8 @@ echo ==========================================
 echo =                Perkalian               =
 echo ==========================================
 echo Masukan angka yang ingin kakak kalikan :
-set /p num1=
-set /p num2=
-echo %num1%*%num2%?
+set /p num1=Masukan angka pertama :
+set /p num2=Masukkan angka kedua :
 pause
 echo ==========================================
 set /a jawaban=%num1%*%num2%
@@ -79,9 +76,8 @@ echo ==========================================
 echo =                Pembagian               =
 echo ==========================================
 echo Masukan angka yang ingin kakak bagikan :
-set /p num1=
-set /p num2=
-echo %num1%/%num2%?
+set /p num1=Masukan angka pertama :
+set /p num2=Masukkan angka kedua :
 pause
 echo ==========================================
 set /a jawaban=%num1%/%num2%
